@@ -213,12 +213,19 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    "stats",
     "anti_spam",
     "owners",
     "arabic_lock",
     "set",
     "get",
+    "Sticker-Lock",
+    "sudo",
+    "setrank",
+    "plugins",
+    "locklink",
+    "lockbadw",
+    "getplug",
+    "echo",
     "broadcast",
     "download_media",
     "invite",
@@ -226,7 +233,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {150575718,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
